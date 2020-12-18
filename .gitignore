@@ -1,0 +1,62 @@
+#application cache directories
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+#static files
+application/front/content/views/static/*
+!application/front/content/views/static/index.html
+
+#logs files
+application/logs/log-*.php
+!application/logs/index.html
+
+#installer directory & file
+installer
+installer.php
+
+#access log
+public/access_log/*
+!public/access_log/index.html
+public/parse_log/*
+!public/parse_log/index.html
+
+#error log directory
+public/error_log/*
+!public/error_log/php-error.log
+
+#backup directory
+public/backup/*
+!public/backup/index.html
+
+#upload directories
+!public/upload/
+public/upload/*
+!public/upload/index.html
+
+!public/upload/__cache/
+public/upload/__cache/*
+!public/upload/__cache/index.html
+
+!public/upload/__temp/
+public/upload/__temp/*
+!public/upload/__temp/index.html
+
+!public/upload/import_files/
+public/upload/import_files/*
+!public/upload/import_files/index.html
+
+!public/upload/settings_files/
+public/upload/settings_files/*
+!public/upload/settings_files/index.html
+
+!public/upload/tinymce_editor_thumbs/
+public/upload/tinymce_editor_thumbs/*
+!public/upload/tinymce_editor_thumbs/index.html
+
+!public/upload/tinymce_editor_upload/
+public/upload/tinymce_editor_upload/*
+!public/upload/tinymce_editor_upload/index.html
+
+#netbeans directory
+nbproject

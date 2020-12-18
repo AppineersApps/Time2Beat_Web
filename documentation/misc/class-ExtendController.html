@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class ExtendController | Appineers - Misc</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?9590d80fe440bdba5ebf9f9d261796724b024235">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+                                <img src="cit-logo.png" style="float:left;margin:9px 7px 0px -8px;">
+				<a href="index.html" class="navbar-brand">Appineers - Misc</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                		<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="Appineers-Misc.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+					</li>
+				</ul>
+                            <form id="search" class="navbar-form navbar-left" role="search" style="float:right!important;">
+                            <input type="hidden" name="cx" value="">
+                            <input type="hidden" name="ie" value="UTF-8">
+                            <div class="form-group">
+                                <input type="text" name="q" class="search-query form-control" placeholder="Search">
+                                                </div>
+                                        </form>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Connectors.html">
+							Connectors<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Connectors.API.Connectors.html">
+							API-Connectors						</a>
+							</li>
+					<li>
+						<a href="package-Connectors.Module.Connectors.html">
+							Module-Connectors						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Extend.API.html">
+							Extend-API<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Extend.API.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="package-Extend.API.Model.html">
+							Model						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Extend.Module.html">
+							Extend-Module<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Extend.Module.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="package-Extend.Module.Model.html">
+							Model						</a>
+							</li>
+					<li>
+						<a href="package-Extend.Module.View.html">
+							View						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Requirements.html">
+							Requirements<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Requirements.Database.Requirements.html">
+							Database-Requirements						</a>
+							</li>
+					<li>
+						<a href="package-Requirements.File.Permissions.html">
+							File-Permissions						</a>
+							</li>
+					<li>
+						<a href="package-Requirements.Server.Requirements.html">
+							Server-Requirements						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-ExtendController.html">ExtendController</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class ExtendController</h1>
+
+
+	<div class="description">
+	<p>To extend a functionality of any controller or to add new fetaures, better to simply extend that controller. Extended controller is always dependent on a single base controller,</p>
+
+<h2>Extended Controller Path:</h2>
+
+<p>If you want to extend any controller then create a controller with same name and use prefix <b>Cit_</b> in the extended controller name, on the same path where is your main class is available. Check following image:<br>
+&nbsp;&nbsp; <img src="images/docs/controller.png" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<h2>Extended Controller Creation:</h2>
+
+<p>If you are extending <b>Product</b> module then create extended class <b>Cit_product</b> and add your customize function like this:
+&nbsp;&nbsp; <img src="images/docs/controller-snipet.jpg" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<h2>Method Calling:</h2>
+
+<p>For calling to the method of extended class, give URL like <b>Your Project URL/admin/Folder Name/Parent Controller Name/Function Name</b>  refer following syntax:<br>
+&nbsp;&nbsp; <img src="images/docs/controler-method-call.png" style="margin-left:10px;margin-bottom:-10px;"></p>
+
+<h2>Method Overwritting:</h2>
+
+<p>&nbsp;&nbsp; For overwritting a defined method, follow given instruction:<br>
+&nbsp;&nbsp; (A) Method defined in parent Class:<br>
+&nbsp;&nbsp;  <img src="images/docs/main-class.png" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<p>&nbsp;&nbsp; (B) Overwrite the method in extended class like this:<br>
+&nbsp;&nbsp;  <img src="images/docs/child-class.png" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<p>Here, you are extending listing method of Product controller. So, whenever you will call listing method then the code which you have written in extended controller, will execute.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Extend.Module.html">Extend-Module</a>\<a href="package-Extend.Module.Controller.html">Controller</a><br>
+
+			<b>Located at</b> <a href="source-class-ExtendController.html#4-38" title="Go to source code">admin/category/ExtendSubpackage/ExtendController.php</a>
+		<br>
+	</div>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Appineers - Misc 
+                <div id="copyright" style="text-align:center;font-size:11px;margin-top:20px;">
+                    Copyright 2019 © ConfigureIT Inc. All Rights Reserved
+                </div>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

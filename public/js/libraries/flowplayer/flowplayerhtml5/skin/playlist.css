@@ -1,0 +1,70 @@
+
+/*
+   Playlist root
+   - absolutely positioned inside the player element
+   - try with a background color
+*/
+.fp-playlist {
+   position: absolute;
+   top: 100%;
+   text-align: center;
+   width: 100%;
+   padding: 3% 0;
+}
+
+/*
+   Playlist item
+   - dimensions as percentages so that it works on all screen sizes
+   - play with width property to adjust the size
+   - color property is used to control the color of box shadow
+*/
+.fp-playlist a {
+   display: inline-block;
+   vertical-align: top;
+   width: 16%;
+   box-shadow: 0 0 10px;
+   color: #ccc;
+   margin: 0 1.4%;
+   padding: 0.8%;
+   background-color: #fff;
+   line-height: 0;
+}
+
+/*
+   Thumbnail image
+   - max-width: 100% makes it scale smoothly as the parent elment scales
+*/
+.fp-playlist a img {
+   max-width: 100%;
+}
+
+/* Mouseover state */
+.fp-playlist a:hover {
+   background-color: #eee;
+   color: #555;
+}
+
+/* Clicked state */
+.fp-playlist a:active {
+   box-shadow: 0 0 15px inset;
+}
+
+/* Selected state */
+.fp-playlist a.is-active {
+   background-color: #00a7c8;
+   box-shadow: 0 0 10px;
+   color: #ddd;
+   cursor: default;
+}
+
+/* Move downwards hen controlbar is below the player */
+.fixed-controls .fp-playlist {
+   top: 106%;
+}
+
+   .flowplayer { width: 80%; background-color: #222; background-size: cover; max-width: 800px; }
+   .flowplayer .fp-controls { background-color: rgba(0, 0, 0, 0.4)}
+   .flowplayer .fp-timeline { background-color: rgba(0, 0, 0, 0.5)}
+   .flowplayer .fp-progress { background-color: rgba(219, 0, 0, 1)}
+   .flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
+   .flowplayer { background-image: url(http://farm4.staticflickr.com/3169/2972817861_73ae53c2e5_b.jpg)}

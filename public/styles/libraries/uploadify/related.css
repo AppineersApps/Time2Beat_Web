@@ -1,0 +1,28 @@
+/* 
+    Document   : related
+    Created on : 15 May, 2013, 11:28:09 AM
+    Author     : hb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+} 
+
+.related{
+    border:0px solid #cccccc;
+    padding:5px;
+} 
+
+.link{
+    cursor:pointer;
+    padding-left:25px;
+} 
+
+.selected{
+    color:red;
+    background:yellow;
+    margin: 8px; font-size:16px;
+}
+

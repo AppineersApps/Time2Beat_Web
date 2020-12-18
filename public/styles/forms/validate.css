@@ -1,0 +1,5 @@
+label.error{padding-left:1px;color:#c93605;}
+form input.error, form input.err{border:1px solid #ED7A53 !important;}
+form input.valid{border:1px solid #9FC569 !important;}
+.controls label.error{margin-top:-20px;}
+.controls .selector label.error{position:absolute;top:5px;right:0;margin:0;}

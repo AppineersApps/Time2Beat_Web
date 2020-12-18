@@ -1,0 +1,40 @@
+/*
+ * Document   : jquery.pnotify.default.css
+ * Created on : Nov 23, 2009, 3:14:10 PM
+ * Author     : Hunter Perrin
+ * Version    : 1.2.0
+ * Link       : http://pinesframework.org/pnotify/
+ * Description: Default styling for Pines Notify jQuery plugin.
+ */
+.ui-pnotify{top:25px;right:25px;position:absolute;height:auto;z-index:9999;}
+html > body .ui-pnotify{position:fixed;}
+.ui-pnotify-container{background-position:0 0;padding:.8em;height:100%;margin:0;border:1px solid #000;background:#999999;background:-moz-linear-gradient(top, #999999 0%, #4c494c 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(100%,#4c494c));background:-webkit-linear-gradient(top, #999999 0%,#4c494c 100%);background:-o-linear-gradient(top, #999999 0%,#4c494c 100%);background:-ms-linear-gradient(top, #999999 0%,#4c494c 100%);background:linear-gradient(to bottom, #999999 0%,#4c494c 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#4c494c',GradientType=0 );}
+.ui-pnotify-container.alert-success{border-color:#e1e7ef;background:#edf2f8;}
+.ui-pnotify-container.alert-info{border-color:#32464b;background:#88bbc8;background:-moz-linear-gradient(top, #88bbc8 0%, #69959b 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#88bbc8), color-stop(100%,#69959b));background:-webkit-linear-gradient(top, #88bbc8 0%,#69959b 100%);background:-o-linear-gradient(top, #88bbc8 0%,#69959b 100%);background:-ms-linear-gradient(top, #88bbc8 0%,#69959b 100%);background:linear-gradient(to bottom, #88bbc8 0%,#69959b 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bbc8', endColorstr='#69959b',GradientType=0 );}
+.ui-pnotify-container.alert-error{border-color:#F1EBEB;background:#ed7a53;background:-moz-linear-gradient(top, #ed7a53 0%, #bf6344 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed7a53), color-stop(100%,#bf6344));background:-webkit-linear-gradient(top, #ed7a53 0%,#bf6344 100%);background:-o-linear-gradient(top, #ed7a53 0%,#bf6344 100%);background:-ms-linear-gradient(top, #ed7a53 0%,#bf6344 100%);background:linear-gradient(to bottom, #ed7a53 0%,#bf6344 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7a53', endColorstr='#bf6344',GradientType=0 );}
+.ui-pnotify-sharp{webkit-border-radius:0;moz-border-radius:0;border-radius:0;}
+.ui-pnotify-closer, .ui-pnotify-sticker{float:right;margin-left:.2em;}
+.ui-pnotify-title{display:block;margin-bottom:.4em;color:#fff;font-size:14px;text-shadow:1px 1px #242424;letter-spacing:0px;}
+.alert-success .ui-pnotify-title{text-shadow:0px 0px #2a410a;color:#1685e3;}
+.alert-success .ui-pnotify-title a{color:#1685e3;text-shadow:none;}
+.alert-info .ui-pnotify-title{text-shadow:1px 1px #32464b;}
+.alert-error .ui-pnotify-title{text-shadow:1px 1px #4e281b;}
+.ui-pnotify-text{display:block;font-size:12px;color:#303030;text-shadow:0px 0px #242424;}
+.alert-success .ui-pnotify-text{text-shadow:1px 1px #f5f5f5;}
+.ui-pnotify-icon, .ui-pnotify-icon span{display:block;float:left;color:#58b1fc;margin-right:.2em;text-shadow:none;}
+.alert-error .ui-pnotify-icon, .alert-error .ui-pnotify-icon span{color:#fff;}
+.ui-pnotify-text .db-error-click{color:#000;}
+.ui-pnotify-history-container{position:absolute;top:0;right:4px;width:90px;border-top:none;padding:0;webkit-border-top-left-radius:0;moz-border-top-left-radius:0;border-top-left-radius:0;webkit-border-top-right-radius:0;moz-border-top-right-radius:0;border-top-right-radius:0;z-index:10000;}
+.ui-pnotify-history-container .ui-pnotify-history-header{padding:2px;text-align:center;font-weight:bold;}
+.ui-pnotify-history-container button{cursor:pointer;display:block;width:100%;}
+.ui-pnotify-history-container .ui-pnotify-history-pulldown{display:block;margin:0 auto;}
+.ui-pnotify-history-container .ui-pnotify-history-all,
+.ui-pnotify-history-container .ui-pnotify-history-unread,
+.ui-pnotify-history-container .ui-pnotify-history-last{padding:3px 7px;margin-bottom:0;font-size:12px;color:#797979;text-transform:uppercase;text-align:center;vertical-align:middle;cursor:pointer;background:#EDF2F8;border:1px solid #EDF2F8;}
+.ui-pnotify-history-container .ui-pnotify-history-all:hover,
+.ui-pnotify-history-container .ui-pnotify-history-unread:hover,
+.ui-pnotify-history-container .ui-pnotify-history-last:hover{background-color:#CCC;}
+.pnotify-empty-container{background-color:#f5f5f5;border:1px solid #e3e3e3;}
+.pnotify-read-container{background-color:rgb(189, 218, 254);border:1px solid rgb(189, 218, 254);}
+.ui-pnotify-history-container .pnotify-empty-pulldown{opacity:0.5;}
+.ui-pnotify-history-container .pnotify-read-pulldown{opacity:1;}

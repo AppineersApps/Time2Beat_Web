@@ -1,0 +1,31 @@
+.release-notes .sidebar-inside{background-color: #fff;padding:1%; display:inline-block; width:98%;}
+.release-notes .main_content {float: right; width:calc(98% - 250px); border-left:1px solid #dedede; padding-left:20px;}
+.release-notes .wrapper {width: 98%;display: block;}
+.release-notes .sidebar1 {width: 100%;float: left;display: block;margin-right: 3%;}
+.release-notes .release-note-menu {overflow: auto;overflow-x:hidden;width: 100%; max-height: calc(100vh - 130px);}
+.release-notes .release-note-menu ul {margin: 0px;padding: 0px;list-style-type: none;}
+.release-notes .left-menu li {margin: 0px;padding: 10px 0;width: 95%;list-style-type: none;display: block;font-size: 15px;color: #3B82F8;}
+.release-notes .release-note-menu li a {margin: 0px;padding: 0px 10px 0px 0px;width: 100%;display: inline-block;font-size: 15px;line-height: 15px; color: #555555; text-decoration:none;}
+.release-notes .release-note-menu li a:hover,.release-notes .release-note-menu li a.active{ color:#01bbe4;}
+.release-notes .content {float: right;padding-top: 10px; width:100%;}
+.release-notes .margin_horizontal {width: 100%;display: inline-block;margin-bottom: 60px;color: #8994a3;font-size: 15px;}
+.release-notes .release-notes-dis h2 {color: #01bbe4;font-size: 25px;margin: 0px;padding: 0px 0px 15px 0px;border-bottom: 1px solid #dedede;margin-bottom: 15px;}
+.release-notes .release-notes-dis h2 .date {font-size: 14px;color: #01bbe4;float: right;font-weight: normal;padding: 4px 0 0 0;}
+.release-notes .release-notes-dis ul.note_list {margin: 0 0 10px 0px;padding: 0px;list-style-type: none;width: 100%;}
+.release-notes .margin_horizontal ul li {margin: 0px;padding: 0px;margin-bottom: 10px;width: 100%;height: auto;min-height: inherit;color: #000;font-size: 14px;text-align: left;float: none;}
+.release-notes .release-notes-dis ul.note_list li h4 {color: #000;font-size: 20px;margin: 0px;padding: 0px 0px 10px 0px;}
+.release-notes .tag {border-radius: 30px;padding: 4px 10px;text-align: center;color: #fff;font-size: 9px;margin: 0px 0px 8px 0px;line-height: 18px;position: relative;margin-left: 10px;background: #820024;vertical-align: middle; }
+.release-notes .release-notes-dis ul.note_list li .note_dtl p {color: #555555;font-size: 15px;margin: 0px;padding: 0px 0px 15px 0px;}
+.release-notes .release-note-menu li a .rversionno{ float:right;}
+.release-notes .notes-sidebar{ width:250px; float:left;}
+.release-notes-block{ padding:1%;background-color: #fff;position: relative; width:97.2%; margin:8px;}
+.release-notes .release-notes-dis ul.note_list li h4 .fa{ color:#fff;margin-right: 6px;}
+.content_fixed{position:fixed;top:100px;}
+
+.tag.tag-changed {background: #d86f9f !important;vertical-align: middle;}
+.tag.tag-new {background: #3b82f8 !important;vertical-align: middle;}
+.tag.tag-fixed {background: #5cbf7d !important;vertical-align: middle;}
+
+.app-image-block {float:right; margin-right: 10px;margin-top:2px;}
+.app-image-block .app-image-anc{margin-right: 2px;}
+.app-image-block .app-image-fonts {font-size: 24px!important;}

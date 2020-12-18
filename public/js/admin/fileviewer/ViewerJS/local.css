@@ -1,0 +1,3 @@
+#titlebar, #toolbarRight {display: none;}
+#viewer #canvasContainer{background-color:#fff;background-image:none;}
+#viewer #canvasContainer > #canvas{box-shadow:none;}

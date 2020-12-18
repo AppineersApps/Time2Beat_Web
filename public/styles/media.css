@@ -1,0 +1,6 @@
+@media(max-width:767px) {
+h1.exp-msg { font-size: 32px; margin-bottom: 0; }
+h1.thnx-msg { font-size: 32px; margin-bottom: 0; }
+.jumbotron p { font-size: 15px; }
+a.navbar-brand.logo img { margin-left:70px;}
+}

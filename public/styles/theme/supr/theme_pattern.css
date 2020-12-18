@@ -1,0 +1,76 @@
+.top-bg.bedge_grunge{background:url(../../../images/patterns/header/bedge_grunge.png);}
+.top-bg.grid{background:url(../../../images/patterns/header/grid.png);}
+.top-bg.nasty_fabric{background:url(../../../images/patterns/header/nasty_fabric.png);}
+.top-bg.natural_paper{background:url(../../../images/patterns/header/natural_paper.png);}
+.sidebarbg-main.az_subtle{background:url(../../../images/patterns/sidebar/az_subtle.png);}
+.sidebarbg-main.billie_holiday{background:url(../../../images/patterns/sidebar/billie_holiday.png);}
+.sidebarbg-main.grey{background:url(../../../images/patterns/sidebar/grey.png);}
+.sidebarbg-main.noise_lines{background:url(../../../images/patterns/sidebar/noise_lines.png);}
+.content-loader.cream_dust, .content-login.cream_dust{background:url(../../../images/patterns/body/cream_dust.png);}
+.content-loader.dust, .content-login.dust{background:url(../../../images/patterns/body/dust.png);}
+.content-loader.grey, .content-login.grey{background:url(../../../images/patterns/body/grey.png);}
+.content-loader.subtle_dots, .content-login.subtle_dots{background:url(../../../images/patterns/body/subtle_dots.png);}
+.top-navigation-bar .lang-box .chosen-single span{color:#6d6d6d!important;font-weight:bold;}
+.top-navigation-bar .lang-box .chosen-single{background:none;box-shadow:none;}
+.top-navigation-bar .lang-box .chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-15px 6px;}
+.top-menu ul li.top{border:none;margin:0;}
+.top-menu ul li a.top_link{background:none;}
+.top-menu ul li a.top_link span.down{background:none;}
+.top-menu ul li:hover > a.top_link{background:none;}
+.top-menu ul li > a.top_link.active{background:none;}
+.top-menu ul li:hover > a.top_link .down{background:none;}
+.top-menu ul li.top{border-left:solid 1px #c4c4c4;}
+.top-menu ul li:hover ul.sub{border:1px solid #d9d9d9;border-top:1px solid #C9C9C9;}
+.top-menu ul li:hover ul.sub li{border-bottom:1px solid #DADADA;}
+.top-menu ul li ul.sub li a{background:#f5f5f5;}
+.top-menu ul li:hover ul.sub li:hover a{background:#fefefe;}
+.vertical-dropdown-menu .top{background:url(../../../images/header-bg.png);border-top:1px solid #c4c4c4;}
+.vertical-dropdown-menu .top:first-child{border-top:none;}
+.top-navigation-bar .lang-box .chosen-single{border:1px solid #c4c4c4!important;}
+.top-navigation-bar .lang-box .chosen-single:hover{border:1px solid #c4c4c4!important;}
+.top-navigation-bar .lang-box .chosen-single div{border-left:1px solid #c4c4c4!important;}
+.bedge_grunge .top-menu ul li.top{border-left:solid 1px #BBB8B3;}
+.bedge_grunge .top-menu ul li:hover ul.sub{border:1px solid #d9d9d9;border-top:1px solid #C9C9C9;}
+.bedge_grunge .top-menu ul li:hover ul.sub li{border-bottom:1px solid #CFCBC5;}
+.bedge_grunge .top-menu ul li ul.sub li a{background:#DDD9D1;}
+.bedge_grunge .top-menu ul li:hover ul.sub li:hover a{background:#fefefe;}
+.bedge_grunge .vertical-dropdown-menu .top{background:url(../../../images/patterns/header/bedge_grunge.png);border-top:1px solid #BBB8B3;}
+.bedge_grunge .vertical-dropdown-menu .top:first-child{border-top:1px solid #BBB8B3;}
+.bedge_grunge .top-navigation-bar .lang-box .chosen-single{border:1px solid #BBB8B3!important;}
+.bedge_grunge .top-navigation-bar .lang-box .chosen-single:hover{border:1px solid #BBB8B3!important;}
+.bedge_grunge .top-navigation-bar .lang-box .chosen-single div{border-left:1px solid #BBB8B3!important;}
+.grid .top-menu ul li.top{border-left:solid 1px #c4c4c4;}
+.grid .top-menu ul li:hover ul.sub{border:1px solid #d9d9d9;border-top:1px solid #C9C9C9;}
+.grid .top-menu ul li:hover ul.sub li{border-bottom:1px solid #DADADA;}
+.grid .top-menu ul li ul.sub li a{background:#ECECEC;}
+.grid .top-menu ul li:hover ul.sub li:hover a{background:#fefefe;}
+.grid .vertical-dropdown-menu .top{background:url(../../../images/patterns/header/grid.png);border-top:1px solid #c4c4c4;}
+.grid .vertical-dropdown-menu .top:first-child{border-top:1px solid #c4c4c4;}
+.grid .top-navigation-bar .lang-box .chosen-single{border:1px solid #c4c4c4!important;}
+.grid .top-navigation-bar .lang-box .chosen-single:hover{border:1px solid #c4c4c4!important;}
+.grid .top-navigation-bar .lang-box .chosen-single div{border-left:1px solid #c4c4c4!important;}
+.nasty_fabric .top-menu ul li.top{border-left:solid 1px #A7A7A7;}
+.nasty_fabric .top-menu ul li:hover ul.sub{border:1px solid #d9d9d9;border-top:1px solid #C9C9C9;}
+.nasty_fabric .top-menu ul li:hover ul.sub li{border-bottom:1px solid #DADADA;}
+.nasty_fabric .top-menu ul li ul.sub li a{background:#CFCFCF;}
+.nasty_fabric .top-menu ul li:hover ul.sub li:hover a{background:#fefefe;}
+.nasty_fabric .vertical-dropdown-menu .top{background:url(../../../images/patterns/header/nasty_fabric.png);border-top:1px solid #A7A7A7;}
+.nasty_fabric .vertical-dropdown-menu .top:first-child{border-top:1px solid #A7A7A7;}
+.nasty_fabric .top-navigation-bar .lang-box .chosen-single{border:1px solid #A7A7A7!important;}
+.nasty_fabric .top-navigation-bar .lang-box .chosen-single:hover{border:1px solid #A7A7A7!important;}
+.nasty_fabric .top-navigation-bar .lang-box .chosen-single div{border-left:1px solid #A7A7A7!important;}
+.natural_paper .top-menu ul li.top{border-left:solid 1px #c4c4c4;}
+.natural_paper .top-menu ul li:hover ul.sub{border:1px solid #d9d9d9;border-top:1px solid #C9C9C9;}
+.natural_paper .top-menu ul li:hover ul.sub li{border-bottom:1px solid #DADADA;}
+.natural_paper .top-menu ul li ul.sub li a{background:#EEEEEE;}
+.natural_paper .top-menu ul li:hover ul.sub li:hover a{background:#fefefe;}
+.natural_paper .vertical-dropdown-menu .top{background:url(../../../images/patterns/header/natural_paper.png);border-top:1px solid #c4c4c4;}
+.natural_paper .vertical-dropdown-menu .top:first-child{border-top:1px solid #c4c4c4;}
+.natural_paper .top-navigation-bar .lang-box .chosen-single{border:1px solid #c4c4c4!important;}
+.natural_paper .top-navigation-bar .lang-box .chosen-single:hover{border:1px solid #c4c4c4!important;}
+.natural_paper .top-navigation-bar .lang-box .chosen-single div{border-left:1px solid #c4c4c4!important;}
+.left-model-view .lang-drop .chosen-single{background:#f5f5f5!important;border:1px solid #c4c4c4!important;box-shadow:none;}
+.left-model-view .lang-drop .chosen-single:hover{background-color:#f5f5f5!important;border:1px solid #c4c4c4!important;}
+.left-model-view .lang-drop .chosen-single span{color:#444!important;}
+.left-model-view .lang-drop .chosen-single div{border-left:1px solid #c4c4c4!important;}
+.left-model-view .lang-drop .chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-15px 6px;}

@@ -1,0 +1,15 @@
+::selection{background-color:#E13300;color:white;}
+::moz-selection{background-color:#E13300;color:white;}
+::webkit-selection{background-color:#E13300;color:white;}
+code{font-family:Consolas, Monaco, Courier New, Courier, monospace;font-size:12px;background-color:#f9f9f9;border:1px solid #D0D0D0;color:#002166;display:block;margin:14px 0 14px 0;padding:12px 10px 12px 10px;}
+.method-name{padding:10px;width:100%;font-size:15px;font-weight:bold;}
+.inputparams{padding-left:40px;}
+.api-block{border-bottom:1px solid #ccc;margin-bottom:7px;}
+.api-block:last-child{border-bottom:0;}
+label.error{padding:3px 4px 3px 4px !important;color:#c93605;font-weight:bold;text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);moz-text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);webkit-text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);font-size:11px;}
+form input.error, form input.err{border:1px solid #ED7A53 !important;}
+form input.valid{border:1px solid #9FC569 !important;}
+.controls label.error{margin-top:-20px;}
+.controls .selector label.error{clear:both;position:absolute;top:5px;right:0;margin:0;}
+pre.code{background-color:#F9F9F9;border:1px solid #DDDDDD;display:none;font-family:"Courier New";font-size:12px;overflow:auto;padding:4px;margin-bottom:5px;}
+iframe.text{background-color:#F9F9F9;border:1px solid #DDDDDD;display:none;padding:1px;width:100%;margin-bottom:5px;}

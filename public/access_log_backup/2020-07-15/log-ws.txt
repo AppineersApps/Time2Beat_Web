@@ -1,0 +1,135 @@
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:31:48~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:4:{s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:31:58~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:11:"device_type";s:7:"android";s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:32:11~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:7:{s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~user_login_email~~Webservice~~2020-07-15 12:39:18~~http://time2beat_web-master.localhost/WS/user_login_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";s:11:"device_type";s:0:"";s:12:"device_model";s:0:"";s:9:"device_os";s:0:"";}}
+::1~~user_login_email~~Webservice~~2020-07-15 12:39:35~~http://time2beat_web-master.localhost/WS/user_login_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:40:21~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:7:{s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~user_login_email~~Webservice~~2020-07-15 12:41:18~~http://time2beat_web-master.localhost/WS/user_login_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:5:"email";s:25:"akashparmar1874@gmail.com";s:8:"password";s:10:"Akshay@123";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:42:07~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:7:{s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:23:"akashp@theappineers.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~user_sign_up_email~~Webservice~~2020-07-15 12:54:46~~http://time2beat_web-master.localhost/WS/user_sign_up_email/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:7:{s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";s:10:"first_name";s:5:"Akash";s:9:"last_name";s:6:"Parmar";s:5:"email";s:22:"parmarvakash@gmail.com";s:8:"password";s:10:"Akshay@123";}}
+::1~~social_login~~Webservice~~2020-07-15 13:01:58~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:6:"stream";a:1:{s:90:"----------------------------815507025996906079304322
+Content-Disposition:_form-data;_name";s:684:""social_login_type"
+
+
+----------------------------815507025996906079304322
+Content-Disposition: form-data; name="social_login_id"
+
+110780032085769193858
+----------------------------815507025996906079304322
+Content-Disposition: form-data; name="device_type"
+
+android
+----------------------------815507025996906079304322
+Content-Disposition: form-data; name="device_model"
+
+android
+----------------------------815507025996906079304322
+Content-Disposition: form-data; name="device_os"
+
+android
+----------------------------815507025996906079304322
+Content-Disposition: form-data; name="device_token"
+
+android
+----------------------------815507025996906079304322--
+";}}
+::1~~social_login~~Webservice~~2020-07-15 13:02:15~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:6:"stream";a:1:{s:90:"----------------------------647284431680705613596520
+Content-Disposition:_form-data;_name";s:567:""social_login_type"
+
+
+----------------------------647284431680705613596520
+Content-Disposition: form-data; name="social_login_id"
+
+110780032085769193858
+----------------------------647284431680705613596520
+Content-Disposition: form-data; name="device_model"
+
+android
+----------------------------647284431680705613596520
+Content-Disposition: form-data; name="device_os"
+
+android
+----------------------------647284431680705613596520
+Content-Disposition: form-data; name="device_token"
+
+android
+----------------------------647284431680705613596520--
+";}}
+::1~~social_login~~Webservice~~2020-07-15 13:02:19~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:6:"stream";a:1:{s:90:"----------------------------886639247650401674328520
+Content-Disposition:_form-data;_name";s:684:""social_login_type"
+
+
+----------------------------886639247650401674328520
+Content-Disposition: form-data; name="social_login_id"
+
+110780032085769193858
+----------------------------886639247650401674328520
+Content-Disposition: form-data; name="device_type"
+
+android
+----------------------------886639247650401674328520
+Content-Disposition: form-data; name="device_model"
+
+android
+----------------------------886639247650401674328520
+Content-Disposition: form-data; name="device_os"
+
+android
+----------------------------886639247650401674328520
+Content-Disposition: form-data; name="device_token"
+
+android
+----------------------------886639247650401674328520--
+";}}
+::1~~social_login~~Webservice~~2020-07-15 13:02:39~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:6:"stream";a:1:{s:90:"----------------------------168015313049581197854746
+Content-Disposition:_form-data;_name";s:566:""social_login_type"
+
+
+----------------------------168015313049581197854746
+Content-Disposition: form-data; name="social_login_id"
+
+110780032085769193858
+----------------------------168015313049581197854746
+Content-Disposition: form-data; name="device_type"
+
+android
+----------------------------168015313049581197854746
+Content-Disposition: form-data; name="device_model"
+
+android
+----------------------------168015313049581197854746
+Content-Disposition: form-data; name="device_os"
+
+android
+----------------------------168015313049581197854746--
+";}}
+::1~~social_login~~Webservice~~2020-07-15 13:03:17~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:6:"stream";a:1:{s:90:"----------------------------020982333178232761644333
+Content-Disposition:_form-data;_name";s:574:""social_login_type"
+
+facebook
+----------------------------020982333178232761644333
+Content-Disposition: form-data; name="social_login_id"
+
+110780032085769193858
+----------------------------020982333178232761644333
+Content-Disposition: form-data; name="device_type"
+
+android
+----------------------------020982333178232761644333
+Content-Disposition: form-data; name="device_model"
+
+android
+----------------------------020982333178232761644333
+Content-Disposition: form-data; name="device_os"
+
+android
+----------------------------020982333178232761644333--
+";}}
+::1~~social_login~~Webservice~~2020-07-15 13:03:40~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:0:"";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~social_login~~Webservice~~2020-07-15 13:03:49~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:8:"facebook";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~social_login~~Webservice~~2020-07-15 13:03:59~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:6:"google";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~social_login~~Webservice~~2020-07-15 13:05:17~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:6:"google";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~social_login~~Webservice~~2020-07-15 13:05:34~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:6:"google";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~social_sign_up~~Webservice~~2020-07-15 13:10:22~~http://time2beat_web-master.localhost/WS/social_sign_up/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:7:{s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";s:17:"social_login_type";s:6:"google";s:15:"social_login_id";s:21:"110780032085769193858";s:10:"first_name";s:4:"Test";s:9:"last_name";s:4:"test";}}
+::1~~social_login~~Webservice~~2020-07-15 13:11:27~~http://time2beat_web-master.localhost/WS/social_login/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:5:{s:17:"social_login_type";s:6:"google";s:15:"social_login_id";s:21:"110780032085769193858";s:11:"device_type";s:7:"android";s:12:"device_model";s:7:"android";s:9:"device_os";s:7:"android";}}
+::1~~forgot_password~~Webservice~~2020-07-15 13:46:30~~http://time2beat_web-master.localhost/WS/forgot_password/~~PostmanRuntime/7.21.0~~Unknown OS Platform~~Unknown Browser~~a:3:{s:6:"method";s:4:"POST";s:3:"get";a:1:{s:8:"ws_debug";s:1:"1";}s:4:"post";a:1:{s:5:"email";s:25:"akashparmar1874@gmail.com";}}

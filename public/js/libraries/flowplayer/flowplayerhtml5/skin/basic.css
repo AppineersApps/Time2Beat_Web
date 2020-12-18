@@ -1,0 +1,26 @@
+/*
+   Source file:
+
+   https://github.com/flowplayer/www/blob/master/content/media/css/playlist/classic.styl
+*/
+.hbflowplayer{/* player (and playlist) background */background:#333 ;}
+.hbflowplayer.is-loading{/* override background image when clip changes */background:#333}
+.hbflowplayer .fp-prev,.hbflowplayer .fp-next{/* next and prev buttons */position:absolute;top:44%;cursor:pointer;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;transition:opacity .5s;background:url("../../public/js/flowplayer/flowplayerhtml5/skin/img/buttons.png");opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);height:20px;width:12px;}
+.is-mouseover.hbflowplayer .fp-prev,.is-mouseover.hbflowplayer .fp-next{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100)}
+.hbflowplayer .fp-prev{left:-20px;background-position:0 -200px;}
+.hbflowplayer .fp-prev:hover{background-position:0 -300px}
+.hbflowplayer .fp-next{right:-20px;background-position:0 -400px;}
+.hbflowplayer .fp-next:hover{background-position:0 -500px}
+.hbflowplayer .fp-playlist{/* the playlist root element */position:absolute;bottom:-135px;left:0;width:100%;text-align:center;}
+.hbflowplayer .fp-playlist a{/* playlist entry */display:inline-block;width:100px;height:100px;margin:0 10px;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s;border:4px solid #fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.hbflowplayer .fp-playlist a:hover{border-color:#ccc}
+.hbflowplayer .fp-playlist a.is-active{border-color:#52b9e4;}
+.is-paused.hbflowplayer .fp-playlist a.is-active{border-color:#1c87b4}
+.hbflowplayer .fp-playlist .item2{background-position:-197px -1px}
+.hbflowplayer .fp-playlist .item3{background-position:-393px -1px}
+.hbflowplayer .fp-playlist .item4{background-position:-589px -1px}
+#event-info{background-color:#333;font-family:monaco,monospace;max-width:200px;margin:150px auto 0;color:#eee;padding:10px;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);font-size:14px;}
+#event-info p{margin:0}
+@media (max-width: 570px){.hbflowplayer .fp-playlist{bottom:-90px;}
+.hbflowplayer .fp-playlist a{width:55px;height:55px}
+}

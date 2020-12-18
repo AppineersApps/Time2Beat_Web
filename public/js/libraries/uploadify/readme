@@ -1,0 +1,52 @@
+*********Uploadify**********
+1)use:
+  To upload multiple files 
+2)interface:
+
+    to load library use:
+    ---------------------------------------------	
+    $this->load->library('uploadifynew');
+    ---------------------------------------------	
+    		
+    	
+    method use in smarty with parameter
+    ---------------------------------------------
+    $this->uploadifynew->get_upload('file_input_tag_id','multi:true,auto:true......(parameters)','image_height','image_width');
+    ---------------------------------------------
+
+
+    parameters:
+	
+	  * 'auto'     : false,
+          * 'buttonClass' : 'some-class',
+          * 'buttonCursor' : 'arrow',
+          * 'buttonImage' : '/uploadify/browse-btn.png',
+          * 'buttonText' : 'BROWSE...',
+          * 'checkExisting' : '/uploadify/check-exists.php',
+          * 'debug'    : true,
+          * 'fileObjName' : 'the_files',
+          * 'fileSizeLimit' : '100KB',
+          * 'fileTypeDesc' : 'Any old file you want...',
+          * 'fileTypeDesc' : 'Image Files',
+          * 'method'   : 'post',
+          * 'multi'    : false,
+          * 'overrideEvents' : ['onUploadProgress'],
+          * 'preventCaching' : false,
+          * 'progressData' : 'speed',
+          * 'queueID'  : 'some_file_queue',
+          * 'queueSizeLimit' : 1,
+          * 'removeCompleted' : false,
+          * 'removeTimeout' : 10,
+          * 'requeueErrors' : true,
+          * 'successTimeout' : 5,
+          * 'uploader' : '/uploadify/uploadify.php'
+          * 'uploadLimit' : 1
+          * 'width'    : 300
+                 
+   3)functionality:
+	  To upload multiple file by setting option multi:true
+	  To upload single file by setting option multi:false
+	  To upload file in auto mode use option auto:true
+	  To upload file  manually use option auto:false
+           		   	  
+	 

@@ -1,0 +1,9 @@
+.ui-pattern{position:relative;}
+.ui-patter-line-container,.ui-patter-arrow-container{position:absolute;top:0;left:0;bottom:0;right:0;}
+.ui-pattern-row{clear:left;}
+.ui-pattern-node{background:url(../../../images/sprite.png) no-repeat -352px -1px;display:inline;height:50px;margin:15px;width:50px;float:left;}
+.ui-state-disabled .ui-pattern-node{background-position:-402px -1px;}
+.ui-pattern-selected{background-position:-452px -1px;}
+.ui-pattern-correct{background-position:-452px -1px;}
+.ui-pattern-incorrect{background-position:-552px -1px;}
+.pattern_reset{margin-top:70%;border:solid 1px #e3e3e3;box-shadow:0 0px 1px #888;border-radius:2px;cursor:pointer;}

@@ -1,0 +1,3 @@
+/*
+Write Global JS here
+*/

@@ -1,0 +1,22 @@
+[30-Oct-2018 15:25:15 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 44
+[30-Oct-2018 15:25:34 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 35
+[30-Oct-2018 15:25:34 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /var/www/html/CIBase_V2/4.0/application/core/Cit_Exceptions.php on line 88
+[30-Oct-2018 15:25:34 Asia/Calcutta] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[30-Oct-2018 15:46:19 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 35
+[30-Oct-2018 15:46:19 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /var/www/html/CIBase_V2/4.0/application/core/Cit_Exceptions.php on line 88
+[30-Oct-2018 15:46:19 Asia/Calcutta] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[30-Oct-2018 15:47:29 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 35
+[30-Oct-2018 15:47:29 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /var/www/html/CIBase_V2/4.0/application/core/Cit_Exceptions.php on line 88
+[30-Oct-2018 15:47:29 Asia/Calcutta] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[30-Oct-2018 15:49:41 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 36
+[30-Oct-2018 15:50:14 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 36
+[30-Oct-2018 16:42:08 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 41
+[30-Oct-2018 16:42:08 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /var/www/html/CIBase_V2/4.0/application/core/Cit_Exceptions.php on line 88
+[30-Oct-2018 16:42:08 Asia/Calcutta] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[30-Oct-2018 16:42:41 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/application/admin/general/controllers/Accesslog.php on line 41
+[18-Apr-2019 19:13:57 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 210
+[18-Apr-2019 19:14:27 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 420
+[18-Apr-2019 19:14:57 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 420
+[18-Apr-2019 19:15:27 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[18-Apr-2019 19:15:57 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[18-Apr-2019 19:16:27 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/CIBase_V2/4.0/system/libraries/Session/drivers/Session_files_driver.php on line 217

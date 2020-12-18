@@ -1,0 +1,2 @@
+103.105.111.172~~get_config_paramaters~~Webservice~~2020-08-01 07:33:06~~http://18.211.58.235/time_2_beat/WS/get_config_paramaters/~~okhttp/4.2.1~~Unknown OS Platform~~Unknown Browser~~a:1:{s:6:"method";s:4:"POST";}
+103.105.111.172~~get_config_paramaters~~Webservice~~2020-08-01 08:06:16~~http://18.211.58.235/time_2_beat/WS/get_config_paramaters/~~okhttp/4.2.1~~Unknown OS Platform~~Unknown Browser~~a:1:{s:6:"method";s:4:"POST";}

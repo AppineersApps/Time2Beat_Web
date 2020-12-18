@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class ExtendAPIModel | Appineers - Misc</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?9590d80fe440bdba5ebf9f9d261796724b024235">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+                                <img src="cit-logo.png" style="float:left;margin:9px 7px 0px -8px;">
+				<a href="index.html" class="navbar-brand">Appineers - Misc</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                		<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="Appineers-Misc.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+					</li>
+				</ul>
+                            <form id="search" class="navbar-form navbar-left" role="search" style="float:right!important;">
+                            <input type="hidden" name="cx" value="">
+                            <input type="hidden" name="ie" value="UTF-8">
+                            <div class="form-group">
+                                <input type="text" name="q" class="search-query form-control" placeholder="Search">
+                                                </div>
+                                        </form>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Connectors.html">
+							Connectors<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Connectors.API.Connectors.html">
+							API-Connectors						</a>
+							</li>
+					<li>
+						<a href="package-Connectors.Module.Connectors.html">
+							Module-Connectors						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Extend.API.html">
+							Extend-API<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Extend.API.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="package-Extend.API.Model.html">
+							Model						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Extend.Module.html">
+							Extend-Module<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Extend.Module.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="package-Extend.Module.Model.html">
+							Model						</a>
+							</li>
+					<li>
+						<a href="package-Extend.Module.View.html">
+							View						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Requirements.html">
+							Requirements<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Requirements.Database.Requirements.html">
+							Database-Requirements						</a>
+							</li>
+					<li>
+						<a href="package-Requirements.File.Permissions.html">
+							File-Permissions						</a>
+							</li>
+					<li>
+						<a href="package-Requirements.Server.Requirements.html">
+							Server-Requirements						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-ExtendAPIModel.html">ExtendAPIModel</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class ExtendAPIModel</h1>
+
+
+	<div class="description">
+	<p>To extend a functionality of any API model or to add new fetaures, better to simply extend that model.</p>
+
+<h2>Extended Model Path:</h2>
+
+<p>If you want to extend any model then create a model with same name and use prefix <b>Cit_</b> in the extended model name, on the same path where is your parent model is available. Check following image:<br>
+&nbsp;&nbsp; <img src="images/docs/web-model.jpg" style="margin-left:18px;"><br></p>
+
+<h2>Extended Model Creation:</h2>
+
+<p>If you are extending <b>Product_model</b> then create extended model <b>Cit_product_model</b> and add your customize function like this:
+&nbsp;&nbsp; <img src="images/docs/web-model-snipet.jpg" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<h2>Extended Model Calling:</h2>
+
+<p>For calling to the method of extended model, first load model in you controller's function and call model's method like below:
+&nbsp;&nbsp; <img src="images/docs/model-method-call.png" style="margin-left:20px;"><br></p>
+
+<h2>Method Overwritting:</h2>
+
+<p>&nbsp;&nbsp; For overwritting a defined method, follow given instruction:<br>
+&nbsp;&nbsp; (A) Method defined in parent Class<br>
+&nbsp;&nbsp;  <img src="images/docs/main-model-api.png" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<p>&nbsp;&nbsp; (B) Overwrite the method in extended class like this:<br>
+&nbsp;&nbsp;  <img src="images/docs/child-model-api.png" style="margin-left:20px;margin-top:10px;"><br></p>
+
+<p>Here, extended <b>getUserData</b> method will execute whenever parent model's function will call.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Extend.API.html">Extend-API</a>\<a href="package-Extend.API.Model.html">Model</a><br>
+
+			<b>Located at</b> <a href="source-class-ExtendAPIModel.html#4-37" title="Go to source code">webservice/user/ExtendSubpackage/ExtendedAPIModel.php</a>
+		<br>
+	</div>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Appineers - Misc 
+                <div id="copyright" style="text-align:center;font-size:11px;margin-top:20px;">
+                    Copyright 2019 © ConfigureIT Inc. All Rights Reserved
+                </div>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

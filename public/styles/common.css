@@ -1,0 +1,12 @@
+.errorbox-position{position:fixed;width:100%;margin:auto;z-index:100000;}
+.errorbox-position .alert{background-color:#FCF8E3;border:1px solid #FBEED5;border-radius:4px 4px 4px 4px;color:#C09853;margin-bottom:20px;padding:8px 35px 8px 14px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}
+.errorbox-position .alert-success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6;}
+.errorbox-position .alert-error{color:#b94a48;background-color:#f2dede;border-color:#eed3d7;}
+.errorbox-position .alert-danger{color:#b94a48;background-color:#f2dede;border-color:#eed3d7;}
+.errorbox-position .alert-info{background-color:#D9EDF7;border-color:#BCE8F1;color:#3A87AD;}
+.errorbox-position .closebtn-errorbox{position:absolute;top:10px;right:15px;z-index:10000;}
+.errorbox-position .content-errorbox{padding:13px 35px 13px 14px;position:absolute;text-align:center;top:0;width:100%;z-index:1000;}
+.errorbox-position .content-errorbox .close{background:none repeat scroll 0 0 transparent;border:0 none;cursor:pointer;padding:0;}
+.cit-captcha-textbox{margin-top:2px;}
+.cit-captcha-response{font-size:18px;letter-spacing:7px;}
+.blockUI{font-size:16px;}

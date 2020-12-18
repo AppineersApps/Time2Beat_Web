@@ -1,0 +1,25 @@
+**********multiselect***********
+
+1)features:
+        -Search within available options 	
+	-Displaying counts of selected and available items
+	-Select All / Deselect All Buttons
+	-Dragging items from the available list to the selected list directly.
+
+2)use :
+	load library in controller
+	---------------------------------------
+	$this->load->library('multiselect');
+	---------------------------------------
+
+	method call in smarty
+	---------------------------------------
+	<%$this->multiselect->display()%>
+	---------------------------------------
+
+	note:
+		dropdown should have class multiselect and attribute multiple
+		
+		eg:<%$this->dropdown->display("vCountry","countries[]","class='multiselect' multiple ")%>
+
+ 

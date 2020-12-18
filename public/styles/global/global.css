@@ -1,0 +1,61 @@
+/*
+Write Global CSS here
+*/
+#qLbar.default-qLbar{border: none!important;animation: none!important;width: 80px!important;height: 80px!important;border-radius: 0!important;}
+
+/*****CUSTOM_THEME_SETTINGS_CSS_START*****/
+
+
+
+.custom-login-bg {background: url(../../../images/login-bg-selected.jpg?v=1567759811) no-repeat center;background-size: 100%;}
+
+#qLbar.loader-qLbar{background: url(../../../images/loader-selected.svg?v=1567759819) no-repeat center;}
+
+
+.top-menu ul { background:transparent; }
+.top-bg { border: none; }
+.top-menu ul li.top { border-left-color: rgba(255, 255, 255, 0.09);}
+.home-page-boxes .sitemap-items .box{transition: 0.25s;}
+.home-page-boxes .sitemap-items .box:hover{transform: translateY(-0.3em);}
+.top-menu ul li ul.sub {top: calc(100% + 30px);opacity: 0;visibility: hidden;left: 0;width: 200px;white-space: nowrap;z-index: 300;background: #fff;}
+.top-menu ul li:hover ul.sub {top: 100%;opacity: 1;visibility: visible;width: 200px;transition: all ease-in-out 0.3s;-webkit-transition: all ease-in-out 0.3s;}
+.top-menu ul li:hover ul.sub {border: none;box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.12);}
+.top-menu ul li:hover ul.sub li{border:none;}
+.top-menu ul li a.top_link{padding:0 5px 0 0;}
+.top-menu ul li:hover ul.sub li a{padding: 5px 10px;}
+.top-menu ul li.top-notification:hover ul.sub, .top-menu ul li.task-notification:hover ul.sub{left: -252px!important;}
+.top-menu ul li a.top_link {padding: 0px 7px 0 2px;font-weight: normal;font-size: 14px;}
+.top-menu ul li a.top_link {line-height: 23px!important;padding: 7px 14px 7px;height: 46px;}
+.top-navigation-bar .top-menu .top_link i {text-align: center;margin: 0 auto !important;display: table !important;vertical-align: middle;}
+.top-navigation-bar .top-menu .top_link .icomoon-icon-arrow-down-2 {display: none!important;}
+.top-menu ul li a.top_link.active {height: 46px;}
+.top-menu ul li.top-notification a.top_link,.top-menu ul li.task-notification a.top_link{padding:19px 0px 0px 0px;height:41px;}
+.top-menu ul li.top-notification a.top_link span.icon14,.top-menu ul li.task-notification a.top_link span.icon14{font-size:20px;}
+.top-menu ul li.initials a.top_link{padding:0px;height:60px;}
+.top-notification-badge {margin: -9px 0px 0 24px;}
+
+
+.ui-jqgrid-pager .jqgrid-pg-first{padding-right:0px!important;}
+.ui-jqgrid-pager .jqgrid-pg-first span{border-right: none!important;border-top-left-radius: 25px!important;border-bottom-left-radius: 25px!important;}
+.ui-jqgrid-pager .jqgrid-pg-last span{border-left: none!important;border-top-right-radius: 25px!important;border-bottom-right-radius: 25px!important;}
+.ui-jqgrid-pager .jqgrid-pg-prev span, .ui-jqgrid-pager .jqgrid-pg-last span{border-top-left-radius: 0px!important;border-bottom-left-radius: 0px!important;}
+.ui-jqgrid-pager .jqgrid-pg-next span, .ui-jqgrid-pager .jqgrid-pg-first span{border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important;}
+.ui-jqgrid .ui-pg-table td.jqgrid-pg-prev, .ui-jqgrid .ui-pg-table td.jqgrid-pg-last{padding-left:0px!important;}
+.ui-jqgrid .ui-pg-table td.jqgrid-pg-next, .ui-jqgrid .ui-pg-table td.jqgrid-pg-first{padding-right:0px!important;}
+.login-form input{border-radius:25px;}
+.loginContainer{border-radius:10px;}
+.pad-bot-none .btn, .listsearch-container, .listsort-container, .listgrid-container{border-color: #fff !important;box-shadow: 0 0 10px 1px rgba(113,113,113,0.2);border-radius: 25px !important;padding: 7px!important;}
+.action-btn-align .btn{box-shadow: 0 0 10px 1px rgba(113,113,113,0.2);border:none;}
+.normal-login-type .login-btn, .forgot-pwd-btns .btn-info{border-radius: 25px!important;}
+.normal-login-type .login-btn, .forgot-pwd-btns .btn-info{box-shadow: 0 0 10px 1px rgba(113,113,113,0.2);border:none;}
+.action-btn-align .btn{border-radius:25px;}
+
+.loginContainer .dont-ask-again-checkbox{margin-top:3px;}
+.normal-login-type .login-btn, .forgot-pwd-btns .btn-info{background: linear-gradient(to right, #fff 50%, #5e87b0 50%);background-size: 200% 100%;background-position: right bottom;transition: all .3s ease-out;}
+.normal-login-type .login-btn:hover, .forgot-pwd-btns .btn-info:hover{background-position: left bottom;}
+.action-btn-align .btn{background: linear-gradient(to right, #5e87b0 50%, #fff 50%);background-size: 200% 100%;background-position: right bottom;transition: all .3s ease-out;}
+.action-btn-align .btn-danger{color:#d9534f;background: linear-gradient(to right, #d9534f 50%, #fff 50%);background-size: 200% 100%;background-position: right bottom;transition: all .3s ease-out;}
+.action-btn-align .btn-info{color:#fff;background: linear-gradient(to right, #fff 50%, #5e87b0 50%);background-size: 200% 100%;background-position: right bottom;transition: all .3s ease-out;}
+.action-btn-align .btn-danger:hover, .action-btn-align .btn:hover{color: #fff;background-position: left bottom;}
+.action-btn-align .btn-info:hover{color: #5e87b0;}
+/*****CUSTOM_THEME_SETTINGS_CSS_END*****/
