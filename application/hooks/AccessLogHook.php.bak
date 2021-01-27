@@ -176,60 +176,6 @@ EOD;
             "start" => $start_time
         );
 
-        // Access Logs insertion => start
-        if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   {
-            $request_url = "https://";   
-        }
-        else  {
-            $request_url = "http://";
-        }
-        // Append the host(domain name, ip) to the URL.   
-        $request_url.= $_SERVER['HTTP_HOST']; 
-        
-        // Append the requested resource location to the URL   
-        $request_url.= $_SERVER['REQUEST_URI'];
-
-        list($start_micro, $start_date) = explode(" ", $start_time);
-        $access_date = date("Y-m-d H:i:s", $start_date);
-
-        $access_log_folder = $this->CI->config->item('admin_access_log_path');
-        if (!is_dir($access_log_folder)) {
-            $this->CI->general->createFolder($access_log_folder);
-        }
-
-        $log_folder_path = $access_log_folder . "api_logs" . DS;
-        //echo $log_folder_path;die;
-        if (!is_dir($log_folder_path)) {
-            $this->CI->general->createFolder($log_folder_path);
-        }
-        $log_file_ext = 'json';
-
-        $file_name = $request_func . "-" . $start_date . "." . $log_file_ext;
-
-        $log_file_path = $log_folder_path . $file_name;
-        
-        $fileContents['input_params'] = $input_params_arr;
-
-        $fp = fopen($log_file_path, 'a+');
-        fwrite($fp, json_encode($fileContents));
-        fclose($fp);
-
-        if(file_exists($log_file_path)){
-            $data_array = array();
-            $data_array['vIPAddress']  = $ip_addr;
-            $data_array['vAPIName']    = $request_func;
-            $data_array['vAPIURL']     = $request_url;
-            $data_array['dAccessDate'] = $access_date;
-            $data_array['vPlatform']   = $plat_form;
-            $data_array['vBrowser']    = $bowser;
-            $data_array['vFileName']   = $file_name;
-            $result = $this->CI->db->insert('api_accesslogs', $data_array);
-            if($result > 0){
-                $exe_arr['api_log_id']  = $result;
-            }
-        }
-        // Access Logs insertion => end
-
         return array($log_str, $exe_arr);
     }
 

@@ -794,7 +794,7 @@ Class General
         return $result;
     }
 
-     public function get_file_attributes($vphoto_name = '')
+    public function get_file_attributes($vphoto_name = '')
     {
        if (trim($vphoto_name) == "") {
             $extension = "jpg";
@@ -812,7 +812,7 @@ Class General
         $file = str_replace(" ", "_", $file);
         $file = preg_replace('/[^A-Za-z0-9@.-_]/', '', $file);
         $extension = $file_arr[count($file_arr) - 1];
-        $file_name = $file."_".uniqid().".". $extension;
+        $file_name = $file . "-" . uniqid() . "." . $extension;
         return array($file_name, $extension);
     }
 
@@ -1461,32 +1461,18 @@ Class General
         return $txt;
     }
 
-    public function pushTestNotification($device_id = '', $sound = '',$notify_arr = array(), $device_type = '')
+    public function pushTestNotification($device_id = '', $notify_arr = array(), $device_type = '')
     {
         if (empty($device_id)) {
             return FALSE;
         }
-       /* if ($device_type == "android" || strlen($device_id) > 70) {
+        if ($device_type == "android" || strlen($device_id) > 70) {
             $success = $this->androidNotification($device_id, $notify_arr['message'], $notify_arr);
         } else {
             $success = $this->iOSNotification($device_id, $notify_arr);
-        }*/
-        $success = $this->fcmNotification($device_id,$sound, $notify_arr['message'], $notify_arr);
+        }
         return $success;
     }
-
-    // public function pushTestNotification($device_id = '', $notify_arr = array(), $device_type = '')
-    // {
-    //     if (empty($device_id)) {
-    //         return FALSE;
-    //     }
-    //     if ($device_type == "android" || strlen($device_id) > 70) {
-    //         $success = $this->androidNotification($device_id, $notify_arr['message'], $notify_arr);
-    //     } else {
-    //         $success = $this->iOSNotification($device_id, $notify_arr);
-    //     }
-    //     return $success;
-    // }
 
     public function iOSNotification($device_id = '', $notify_arr = array())
     {
@@ -5588,127 +5574,6 @@ EOD;
 
         return $browser;
     }
-
-     public function fcmNotification($device_id = '', $sound='',$message = '', $extra = array())
-    {
-        $result = '';
-        try {
-            if (empty($device_id)) {
-                throw new Exception("Device token not found..!");
-            }
-            $cache_temp_path = $this->CI->config->item('admin_upload_cache_path');
-            $apiType = $this->CI->config->item('PUSH_NOTIFY_ANDROID_TYPE');
-            $apiKey = $this->CI->config->item('PUSH_NOTIFY_ANDROID_KEY');
-            if (empty($apiKey)) {
-                throw new Exception("Push notification authorization key not found.");
-            }
-            if ($apiType == "fcm") {
-                // Set POST variables
-                $url = 'https://fcm.googleapis.com/fcm/send';
-                // Replace with real client registration IDs
-                if (is_array($device_id)) {
-                    $registrationIDs = $device_id;
-                } elseif (strstr($device_id, ",")) {
-                    $registrationIDs = explode(",", $device_id);
-                } else {
-                    $registrationIDs = array($device_id);
-                }
-
-                $message_arr = array("message" => $message);
-                $data = array_merge($message_arr, $extra);
-
-                /*$fields = array(
-                    'registration_ids' => $registrationIDs,
-                    'data' => $data
-                );*/
-              $fields = array(
-                    'registration_ids' => $registrationIDs,
-                   'notification' => array(
-                        "body" => $message,
-                        "sound" => $extra['sound']
-                    ),
-                    'priority' => 10,
-                    'type' => $extra['type']
-                );
-               if (!empty($extra)) {
-                    $fields['data'] = $extra;
-                }
-                $headers = array(
-                    'Authorization: key=' . $apiKey,
-                    'Content-Type: application/json'
-                );
-                $this->_push_content = json_encode($fields);
-            } else {
-                // Set POST variables
-                $url = 'https://android.googleapis.com/gcm/send';
-                // Replace with real client registration IDs
-                if (is_array($device_id)) {
-                    $registrationIDs = $device_id;
-                } elseif (strstr($device_id, ",")) {
-                    $registrationIDs = explode(",", $device_id);
-                } else {
-                    $registrationIDs = array($device_id);
-                }
-
-                $message_arr = array("message" => $message);
-                $data = array_merge($message_arr, $extra);
-
-                $fields = array(
-                    'registration_ids' => $registrationIDs,
-                    'data' => $data,
-                );
-                $headers = array(
-                    'Authorization: key=' . $apiKey,
-                    'Content-Type: application/json'
-                );
-                $this->_push_content = json_encode($fields);
-            }
-
-            if (!function_exists('curl_version')) {
-                throw new Exception("CURL is not installed in this server..!");
-            }
-
-            $ch = curl_init();
-            if (!$ch) {
-                throw new Exception("CURL intialization fails..!");
-            }
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_POST, TRUE);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
-            $result = curl_exec($ch);
-            curl_close($ch);
-
-            if (!$result) {
-                $error = curl_error($ch) || "CURL execution fails..!";
-                throw new Exception($error);
-            }
-
-            $success = 1;
-            $message = "Push notification send successfully..!";
-        } catch (Exception $e) {
-            $success = 0;
-            $message = $e->getMessage();
-            $this->_notify_error = $message;
-        }
-        if ($_ENV['debug_action']) {
-            $f = fopen($cache_temp_path . 'android_notification.html', 'a+');
-            if ($f) {
-                fwrite($f, '<br/>');
-                fwrite($f, 'Date : ' . date('Y-m-d H:i:s') . '<br/>');
-                fwrite($f, print_r("Device Token : " . json_encode($registrationIDs), TRUE) . '<br/>');
-                fwrite($f, print_r("Payload : " . $this->_push_content, TRUE) . '<br/>');
-                fwrite($f, print_r("Response : " . $result, TRUE) . '<br/>');
-                fwrite($f, print_r("Status : " . $success, TRUE) . '<br/>');
-                fwrite($f, print_r("Message : " . $message, TRUE) . '<br/>');
-                fclose($f);
-            }
-        }
-        return $success;
-    }
-
 
     
 }

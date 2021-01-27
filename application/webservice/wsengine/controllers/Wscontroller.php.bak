@@ -159,8 +159,6 @@ class Wscontroller extends Cit_Controller
             }
             
         }
-
-
          //data encryption process
         if($appFailled == 'Yes')
         {
@@ -172,7 +170,8 @@ class Wscontroller extends Cit_Controller
 
         //HB-1153
 
-        $this->session->set_userdata("iUserId", $request_arr['user_id']);
+	$this->session->set_userdata("iUserId", $request_arr['user_id']);	
+
 
         //data encryption process
         if ($this->config->item('WS_RESPONSE_ENCRYPTION') == "Y") {
@@ -184,7 +183,7 @@ class Wscontroller extends Cit_Controller
         if ($verify_res['success'] != "1") {
             $this->wschecker->show_error_code($verify_res);
         }
-
+        //$this->input->get_post("ws_debug") = $this->input->get_post("ws_ctrls") = 1;
         //setup for debugger
         if (!is_null($this->input->get_post("ws_debug")) && !is_null($this->input->get_post("ws_ctrls"))) {
             //initiate debugger
@@ -196,7 +195,7 @@ class Wscontroller extends Cit_Controller
             $start_method = "start_" . $func_name;
             if (!method_exists($this->$func_name, $start_method)) {
                 show_error('API init method not found. Please save settings or update code.', 400);
-            }
+        }
 
             if ($this->config->item('WS_JWT_AUTH_TOKEN_ENABLE') == "Y") {
                 //JWT token verification
@@ -244,6 +243,7 @@ class Wscontroller extends Cit_Controller
     {
         $this->wsresponse->ws_log_file = $this->input->get_post("ws_log");
         $debug_cache_dir = $this->config->item('ws_debug_log_path');
+        //echo $debug_cache_dir;exit;
         if (!is_dir($debug_cache_dir)) {
             $this->general->createFolder($debug_cache_dir);
         }
