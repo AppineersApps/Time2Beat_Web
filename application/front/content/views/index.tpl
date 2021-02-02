@@ -97,12 +97,12 @@
                             <div class="col-lg-6 col-md-9 ">
                                 <div class="hero__caption">
                                     <!-- <span data-animation="fadeInUp" data-delay=".4s">Home</span> -->
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Get things done<br>with Time2Beat</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Gamify your daily commute!</h1>
                                     <p data-animation="fadeInUp" data-delay=".8s">Time2Beat makes commuting fun by gamifying your daily commute! compete against yourself or your friends by trying to beat the record time.</p>
                                     <!-- Slider btn -->
                                    <div class="slider-btns">
                                         <!-- Hero-btn -->
-                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="#" class="btn radius-btn">Download</a>
+                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="#downloadSection" class="btn radius-btn">Download</a>
                                         <!-- Video Btn -->
                                         <!-- <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn ani-btn" href="#"><i class="fas fa-play"></i></a> -->
                                    </div>
@@ -122,12 +122,12 @@
                             <div class="col-lg-6 col-md-9 ">
                                 <div class="hero__caption">
                                     <!-- <span data-animation="fadeInUp" data-delay=".4s">App Landing Page</span> -->
-                                   <h1 data-animation="fadeInUp" data-delay=".6s">Get things done<br>with Time2Beat</h1>
+                                   <h1 data-animation="fadeInUp" data-delay=".6s">Gamify your daily commute!</h1>
                                     <p data-animation="fadeInUp" data-delay=".8s">Time2Beat makes commuting fun by gamifying your daily commute! compete against yourself or your friends by trying to beat the record time.</p>
                                     <!-- Slider btn -->
                                    <div class="slider-btns">
                                         <!-- Hero-btn -->
-                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="#" class="btn radius-btn">Download</a>
+                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="#downloadSection" class="btn radius-btn">Download</a>
                                         <!-- Video Btn -->
                                         <!-- <a data-animation="fadeInRight" data-delay="1.0s" class="popup-video video-btn ani-btn" href="#"><i class="fas fa-play"></i></a> -->
                                    </div>
@@ -232,7 +232,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class=" text-center mb-30">
-                           <div class="et_pb_code_inner"><iframe width="560" height="315" src="https://www.youtube.com/embed/P1JtuxdG-7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                           <div class="et_pb_code_inner"><iframe width="560" height="315" src="https://www.youtube.com/embed/p3oqdcRou3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -284,71 +284,10 @@
             </div>
         </div>
         <!-- Applic App End -->
-        <!-- Best Pricing Start -->
-     
-        <!-- Best Pricing End -->
-        <!-- Pricing Card Start -->
-        <!-- <div class="pricing-card-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card text-center mb-30">
-                            <div class="card-top">
-                                <span>2 Years</span>
-                                <h4>$05 <span>/ month</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>E-mail support</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
-                                </ul>
-                                <a href="services.html" class="btn card-btn1">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card  text-center mb-30">
-                            <div class="card-top">
-                                <span>2 Years</span>
-                                <h4>$05 <span>/ month</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>E-mail support</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
-                                </ul>
-                                <a href="services.html" class="btn card-btn1">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card text-center mb-30">
-                            <div class="card-top">
-                                <span>2 Years</span>
-                                <h4>$05 <span>/ month</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>E-mail support</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
-                                </ul>
-                                <a href="services.html" class="btn card-btn1">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <!-- Pricing Card End -->
+       
       
         <!-- Available App  Start-->
-        <div class="available-app-area">
+        <div class="available-app-area" id="downloadSection">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-xl-5 col-lg-6">
@@ -357,8 +296,7 @@
                                 <h2>Our App Available For Any Device Download now</h2>
                                 <p>Download Time2Beat  today!</p>
                                 <div class="app-btn">
-                                    <a href="#" class="app-btn1"><img src="<%$this->config->item('site_url')%>public/upload/website_images/shape/app_btn1.png" alt=""></a>
-                                    <a href="#" class="app-btn2"><img src="<%$this->config->item('site_url')%>public/upload/website_images/shape/app_btn2.png" alt=""></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.app.time2beat" class="app-btn2"><img src="<%$this->config->item('site_url')%>public/upload/website_images/shape/app_btn2.png" alt=""></a>
                                 </div>
                             </div>
                         </div>

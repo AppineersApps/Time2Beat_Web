@@ -715,7 +715,6 @@ class Wsresponse
                     //$this->db->where('eStatus','Active');
                     $result = $this->CI->db->get()->result_array();
                     $userid = $result[0]['iUserId'];
-
                     $updateArr['iPerformedBy'] = (false == empty($userid)) ? $userid : NULL;
                 }
                 $updateArr['dtExecutedDate'] = date('Y-m-d H:i:s');

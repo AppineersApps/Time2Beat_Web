@@ -14,14 +14,14 @@
     $lang["update_push_notification_settings"]["user_id_required"] = "Please enter a value for the user_id field." ;
     $lang["update_push_notification_settings"]["notification_required"] = "Please enter a value for the notification field." ;
     $lang["update_push_notification_settings"]["users_finish_success"] = "Notifications updated successfully." ;
-    $lang["update_push_notification_settings"]["users_finish_success_1"] = "something went wrong, Please try again a while!" ;
+    $lang["update_push_notification_settings"]["users_finish_success_1"] = "Push Notification not updated, Please try again a while!" ;
 
 //Post a Feedback Messages
     $lang["post_a_feedback"]["device_type_required"] = "Please enter a value for the device_type field." ;
     $lang["post_a_feedback"]["device_model_required"] = "Please enter a value for the device_model field." ;
     $lang["post_a_feedback"]["device_os_required"] = "Please enter a value for the device_os field." ;
     $lang["post_a_feedback"]["images_count_required"] = "Please enter a value for the images_count field." ;
-    $lang["post_a_feedback"]["user_query_finish_success_1"] = "Something went wrong, please try again a while!" ;
+    $lang["post_a_feedback"]["user_query_finish_success_1"] = "Post Feedback not updated, please try again a while!" ;
     $lang["post_a_feedback"]["user_query_finish_success"] = "You have successfully posted your feedback." ;
 
 //Static Pages Messages
@@ -74,7 +74,7 @@
     $lang["user_sign_up_email"]["device_model_required"] = "Please enter a value for the device_model field." ;
     $lang["user_sign_up_email"]["device_os_required"] = "Please enter a value for the device_os field." ;
     $lang["user_sign_up_email"]["finish_success_1"] = "#message# " ;
-    $lang["user_sign_up_email"]["users_finish_success_1"] = "Something went wrong, Please try again a while!" ;
+    $lang["user_sign_up_email"]["users_finish_success_1"] = "User not registered, Please try again a while!" ;
     $lang["user_sign_up_email"]["users_finish_success"] = "You have successfully registered. Please check your email and confirm your registration." ;
 
 //User Sign Up Phone Messages
@@ -97,7 +97,7 @@
     $lang["user_sign_up_phone"]["device_model_required"] = "Please enter a value for the device_model field." ;
     $lang["user_sign_up_phone"]["device_os_required"] = "Please enter a value for the device_os field." ;
     $lang["user_sign_up_phone"]["finish_success_1"] = "#message# " ;
-    $lang["user_sign_up_phone"]["users_finish_success_1"] = "Something went wrong, Please try again a while!" ;
+    $lang["user_sign_up_phone"]["users_finish_success_1"] = "User not registered, Please try again a while!" ;
     $lang["user_sign_up_phone"]["users_finish_success"] = "You have successfully registered." ;
 
 //Social Sign Up Messages
@@ -119,7 +119,7 @@
     $lang["social_sign_up"]["device_os_required"] = "Please enter a value for the device_os field." ;
     $lang["social_sign_up"]["social_login_type_required"] = "Please enter a value for the social_login_type field." ;
     $lang["social_sign_up"]["social_login_id_required"] = "Please enter a value for the social_login_id field." ;
-    $lang["social_sign_up"]["users_finish_success_1"] = "Something went wrong, Please try again a while!" ;
+    $lang["social_sign_up"]["users_finish_success_1"] = "User not registered, Please try again a while!" ;
     $lang["social_sign_up"]["finish_success_1"] = "#message# " ;
     $lang["social_sign_up"]["users_finish_success"] = "You have successfully registered." ;
 
@@ -190,7 +190,7 @@
 //Reset Password Messages
     $lang["reset_password"]["new_password_required"] = "Please enter a value for the new_password field." ;
     $lang["reset_password"]["reset_key_required"] = "Please enter a value for the reset_key field." ;
-    $lang["reset_password"]["users_finish_success"] = "Something went wrong, Please try again a while!" ;
+    $lang["reset_password"]["users_finish_success"] = "Password not reset, Please try again a while!" ;
     $lang["reset_password"]["users_finish_success_1"] = "Password reset successfully." ;
 
 //Forgot Password Phone Messages
@@ -242,7 +242,7 @@
     $lang["edit_profile"]["mobile_number_number"] = "Please enter valid number for the phone number field." ;
     $lang["edit_profile"]["mobile_number_minlength"] = "Please enter minimum 10 digits for the phone number field." ;
     $lang["edit_profile"]["mobile_number_maxlength"] = "Please enter maximum 13 digits for the phone number field." ;
-    $lang["edit_profile"]["users_finish_success"] = "Something went wrong, Please try again a while!" ;
+    $lang["edit_profile"]["users_finish_success"] = "Profile not Edited, Please try again a while!" ;
     $lang["edit_profile"]["users_finish_success_1"] = "Invalid user." ;
     $lang["edit_profile"]["users_finish_success_3"] = "#message# " ;
     $lang["edit_profile"]["users_finish_success_2"] = "Profile updated successfully." ;
@@ -253,12 +253,12 @@
 
 //Delete Account Messages
     $lang["delete_account"]["user_id_required"] = "Please enter a value for the user_id field." ;
-    $lang["delete_account"]["users_finish_success"] = "Something went wrong. Please try again a while!" ;
+    $lang["delete_account"]["users_finish_success"] = "Profile not deleted. Please try again a while!" ;
     $lang["delete_account"]["users_finish_success_1"] = "You have successfully deleted your account." ;
 
 //Update Page Version Messages
     $lang["update_page_version"]["page_type_required"] = "Please enter a value for the page_type field." ;
-    $lang["update_page_version"]["finish_success_1"] = "Something went wrong, Please try again a  while!" ;
+    $lang["update_page_version"]["finish_success_1"] = "Page version not updated, Please try again a  while!" ;
     $lang["update_page_version"]["finish_success"] = "#message# " ;
 
 //Country List Messages
@@ -341,3 +341,13 @@
     $lang["get_leaderboard"]["get_leaderboard_finish_success_1"] = "No Rides Found." ;
 
     $lang["delete_api_log"]["api_accesslogs_finish_success"] = "Success" ;
+
+//report abusive review
+   $lang["report_abusive"]["review_id_required"] = "Review Id is required to process delete operation" ;
+   $lang["report_abusive"]["abusive_reports_service_finish_success"] = "#message# reviews reported" ;
+   $lang["report_abusive"]["abusive_reports_service_finish_success_1"] = "#message# reviews not reported" ;
+
+//report abusive user
+   $lang["report_abusive_user"]["report_on_required"] = "Report On User ID is required to process reporting operation" ;
+   $lang["report_abusive_user"]["abusive_reports_finish_success"] = "#message# user reported" ;
+   $lang["report_abusive_user"]["abusive_reports_finish_success_1"] = "#message# user not reported" ;
