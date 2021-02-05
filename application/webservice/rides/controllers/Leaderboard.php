@@ -241,8 +241,8 @@ public function get_leaderboard($request_arr = array(), $inner_api = FALSE)
 
                     $user_id = $input_params['user_id'];
                     $other_user_id = $data_arr['u_user_id'];
-
-                    $friendship_status = $this->get_users_friendship_details($user_id, $other_user_id);
+                    if(false == empty($user_id) && false == empty($other_user_id)){
+                        $friendship_status = $this->get_users_friendship_details($user_id, $other_user_id);
                         if($friendship_status[0]['u_friendship_status'] == ''){
                          $result_arr[$data_key]["u_friendship_status"] = "NO_FRIEND";
                         }
@@ -261,8 +261,9 @@ public function get_leaderboard($request_arr = array(), $inner_api = FALSE)
 
                     $friend_data = $this->get_friend_request_details($user_id, $other_user_id);
                         // print_r($friend_data);exit;
-                    $result_arr[$data_key]["request_id"] = $friend_data[0]['request_id'];    
-                        
+                    $result_arr[$data_key]["request_id"] = $friend_data[0]['request_id']; 
+
+                    } 
                 }
                
                 $this->block_result["data"] = $result_arr;
